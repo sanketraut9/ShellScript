@@ -3,6 +3,13 @@
 num1=54;
 num2=45;
 
-sub=`expr $num1 - $num2`;
+num3=33;
+num4=22;
 
-echo "Substraction is $sub";
+sub1=`expr $num1 - $num2`;
+sub2=`expr $num3 - $num4`;
+
+echo "Subtraction is $sub1";
+echo "Subtraction is $sub2";
+
+echo "end Program:";
